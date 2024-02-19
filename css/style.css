@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,span,p,a{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/* TOP PART START */
+.top-part{
+    background-color: aqua;
+    padding-bottom: 8px;
+}
+
+.icon_bar ul li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.icon_bar ul li a{
+    font-size: 20px;
+    color: black;
+}
+
+.menu{
+    float: right;
+    margin-top: 15px;
+}
+
+.menu ul li{
+    float: left;
+    padding: 0px 10px;
+}
+
+.menu ul li a{
+    color: black;
+
+}
+
+/* HEADER PART START */
+
+
+.navbar-nav .nav-item .nav-link{
+    color: black;
+}
+
+/* BANNER PART START */
+#banner{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hospital.png);
+    background-size: cover;
+    padding: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_content{
+    text-align: center;
+}
+
+.banner_content h3{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.banner_content p{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;  
+    color: #fff;
+}
+
+.button a{
+    text-align: left;
+    line-height: 20px;
+}
+
+/* GALLERY PART START */
+#gallery{
+    margin-top: 120px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+
+
+.gallery_icon i{
+    color: red;
+    font-size: 60px;
+    margin-bottom: 20px;
+    position: absolute; 
+}
+
+.gallery_content h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.gallery_content{
+    margin: 0px 40px;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 70px 20px;
+    position: relative;
+    top: -20px;
+    left: 25px;
+}
+
+.gallery_part::hover{
+    box-shadow: 50px;
+}
+
+/* SERVICE PART CSS START */
+#service{
+    margin-top: 120px;
+    padding-bottom: 50px;
+    text-align: center;   
+    background-color: #F5F7F9;
+}
+
+.common_heading{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.common_heading h2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 30px;
+}
+
+.common_heading p{
+    font-weight:500px;
+    font-size:16px;
+}
+
+.service_icon i{
+    color: red;
+    font-size: 60px;
+    margin-bottom: 20px;
+    position: absolute; 
+}
+
+.service_content h3{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.service_content{
+    margin: 0px 40px;
+    border: 3px solid #f1f1f1;
+    border-radius: 10px;
+    padding: 70px 20px;
+    position: relative;
+    top: -20px;
+    left: 25px;
+}
+
+.service_content a{
+    line-height: 35px;
+    color: red;
+}
+
+.service_content:hover{
+    box-shadow: 50px;
+}
+
+/* SUMMARY PART CSS START */
+
+#summary{
+    padding: 80px 0px;
+    text-align: center;      
+}
+
+.summary i{
+    font-size: 30px;
+    background-color:#F5F7F9 ;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: red;
+    margin-bottom: 10px;
+}
