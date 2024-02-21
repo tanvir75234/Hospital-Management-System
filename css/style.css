@@ -88,7 +88,7 @@ ul,ol{
 
 /* GALLERY PART START */
 #gallery{
-    margin-top: 120px;
+    margin-top: 100px;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -124,8 +124,7 @@ ul,ol{
 
 /* SERVICE PART CSS START */
 #service{
-    margin-top: 120px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     text-align: center;   
     background-color: #F5F7F9;
 }
@@ -137,7 +136,7 @@ ul,ol{
 }
 
 .common_heading h2{
-    margin-top: 30px;
+    margin-top: 100px;
     margin-bottom: 20px;
     font-size: 36px;
     text-transform: uppercase;
@@ -170,6 +169,10 @@ ul,ol{
     position: relative;
     top: -20px;
     left: 25px;
+}
+
+.service_part{
+    margin-top: 100px;
 }
 
 .service_content a{
@@ -220,9 +223,10 @@ ul,ol{
     background-color: aqua;   
 }
 
-.experts_content a i{
+.experts a i{
     padding: 0px 6px;
     color: black;
+    font-size: 16px;
 }
 
 /* BLOG CSS START */
@@ -283,3 +287,55 @@ ul,ol{
 .about_us h3{
     border-bottom: 2px solid rgb(247, 131, 131);
 }
+
+
+
+/* ABOUT US CSS START */
+
+#about-banner{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url(../images/about_part.jpg);
+    padding: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* PATIENT PART START */
+
+#patients{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.patient_img{
+    position: absolute;
+    z-index: 1;
+}
+
+.patient_img_2{
+    position: relative;
+    top: -50px;
+    left: 160px;
+}    
+
+.patient_images{
+    margin-bottom: 50px;
+}
+
+.patient_content p{
+    text-align: justify;
+    line-height: 30px !important;
+}
+
+#mission{
+    background-color: #F5F7F9;
+    padding: 50px 0px;
+}
+
+.mission_content{
+    margin-top: 30px;
+}
+
+    
+
